@@ -30,21 +30,25 @@ HTML tables are used to display tabular data in rows and columns. They are creat
 
 ```html
 <table border="1">
-  <tr>
-    <th>Name</th>
-    <th>Age</th>
-    <th>Email</th>
-  </tr>
-  <tr>
-    <td>John</td>
-    <td>28</td>
-    <td>john@example.com</td>
-  </tr>
-  <tr>
-    <td>Jane</td>
-    <td>24</td>
-    <td>jane@example.com</td>
-  </tr>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>John</td>
+      <td>28</td>
+      <td>john@example.com</td>
+    </tr>
+    <tr>
+      <td>Jane</td>
+      <td>24</td>
+      <td>jane@example.com</td>
+    </tr>
+  </tbody>
 </table>
 ```
 
